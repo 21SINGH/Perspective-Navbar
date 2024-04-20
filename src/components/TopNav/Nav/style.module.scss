@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 50px 40px 50px 40px;
+  box-sizing: border-box;
+
+  .body {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    .linkContainer {
+  // perspective: 120px;
+  //   perspective-origin: right;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 46px;
+    }
+    
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    a{
+      width: 50%;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+
